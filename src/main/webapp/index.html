@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Home</title>
+    <script id="jquery" src="/classpath/jquery.js" type="text/javascript"></script>
+    <script id="json" src="/classpath/json.js" type="text/javascript"></script>
+
+</head>
+<body data-lift-content-id="main">
+<p>
+        <span data-lift="WiringExample">
+          <button id="showDialogBroken" type="button">Show broken wiring</button>
+          <button id="showDialog" type="button">Show working wiring</button>
+        </span>
+</p>
+<div id="working" style="border: 1px solid blue">
+  Will be replaced with working wiring-content when "Working wiring" is clicked
+</div>
+<div id="notWorking" style="border: 1px solid red">
+  Will be replaced by the original markup in the template, not wiring-cell, when "Broken wiring" is clicked
+</div>
+</body>
+</html>
